@@ -10,6 +10,8 @@ function App() {
       <div className="md:flex w-11/12 md:w-10/12 mx-auto">
         <Blogs></Blogs>
         <Bookmarks></Bookmarks>
+        <h1>hello </h1>
+        <h1>there</h1>
       </div>
     </>
   );
