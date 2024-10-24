@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 
 
 const Bookmark = ({bookmark}) => {
-    console.log(bookmark)
     const {title} = bookmark;
     return (
         <div className="bg-gray-100 p-4 my-5 rounded-lg">

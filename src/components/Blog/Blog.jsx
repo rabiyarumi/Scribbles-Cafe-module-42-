@@ -9,8 +9,8 @@ const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
     posted_date,
     reading_time,
     hashtags,
+    id
   } = blog;
-  console.log(blog);
   return (
     <div className="space-y-4 mb-16">
       <img
@@ -49,7 +49,7 @@ const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
       </p>
 
       <button 
-      onClick={()=> handleMarkAsRead(reading_time)}
+      onClick={()=> handleMarkAsRead(reading_time, id)}
       className="text-purple-500 font-bold underline"
       >Mark as read</button>
     </div>
