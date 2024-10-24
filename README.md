@@ -9,4 +9,4 @@
 
 The project is live on Surge! Check it out here:
 
-[Live Demo on Surge](https://scribbles-cafeteria.surge.sh/)
+[Live Demo on Surge](https://knowledge-cafeteria.surge.sh/)
